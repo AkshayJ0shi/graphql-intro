@@ -2,7 +2,7 @@ const { buildSchema, GraphQLObjectType, GraphQLID, GraphQLString, GraphQLSchema,
 
 const Project = require("../models/Project")
 const Client = require("../models/Client")
-
+// let a;
 
 const ClientType = new GraphQLObjectType({
     name: 'Client',
